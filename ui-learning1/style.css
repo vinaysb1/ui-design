@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container {
+width: 100vw;
+height: 100vh;
+background-color: white;
+}
+.header {
+width: 100%;
+/* height:17%; */
+background-color:#7667fe;
+display:flex;
+/* align-items: center; */
+justify-content:flex-end;
+/* gap: 20px; */
+padding: 20px 60px;
+}
+.header-element {
+/* background: red; */
+padding-right: 30px;
+display: flex;
+align-items: center;
+gap: 5px;
+color: white;
+position: relative;
+}
+.image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.notification-active{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border: 3px solid white;
+    border-radius: 50%;
+    top: 0px;
+   right: 0px;
+}
+.notification-icon{
+    position: relative;
+    }
